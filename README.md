@@ -1,5 +1,5 @@
-# 150369
-Daniela Torres López
+# 150369 - Daniela Torres López
+
 
 HTML <----------- Contiene pruebas del avance de la página en HTML.
 
