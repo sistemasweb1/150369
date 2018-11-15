@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML tutorial</title> <!-- Este será el titulo-->
+</head>
+<body>
+
+<h1>This is a Heading</h1> <!-- "Titulos o cabeceras-->
+<p>This is a paragraph.</p> <!--Estructuración de un paragrafo-->
+
+<h1>Cabecera más grande</h1>
+<h2>Cabecera mediana</h2>
+<h3>Cabecera chica</h3> <!-- Aunque los headings parecen ir hasta el h6, el cual ese el ultimo recomendable de usar-->
+
+<h1 style="font-size: 60px"> Cabecera más grande</h1>
+
+<a href="wwww.facebook.com"> Esta es la manera en la que se pone un vínculo</a>
+<img src="" alt="www.facebook.com" width="104" height="142"> <!-- De esta manera se pone una imagen con una descripción y con dimensiones diferentes a las establecidas.-->
+<button>Este es un botón</button>
+
+<ul>
+    <li>Esta</li>
+    <li>es</li>
+    <li>una</li>
+    <li>lista</li>
+</ul>
+
+<tagname>Aquí se pone el contenido</tagname>
+
+<p style="color: red"> Esto es un paragrafo con color</p>
+
+<!--Uso lineas de division-->
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+<p>Esta es la manera<br> En la que puedes cortar un parrafo</p>
+
+<p>Todo esto se escribira en una misma línea porque en HTML parece ser que respeta la manera en la que uno escribe los datos.</p>
+
+<pre>
+    Este texto sí debería
+    Escribirse tal y como
+    Esta escrito directamente
+    En el código y con letra
+    bonita.
+</pre>
+
+<p>Texto normal</p>
+<p style="color:red;">Texto de color</p>
+<p style="font-size:50px;">Texto de una medida diferente.</p>
+
+
+
+
+</body>
+</html>
