@@ -53,7 +53,40 @@
 <p style="color:red;">Texto de color</p>
 <p style="font-size:50px;">Texto de una medida diferente.</p>
 
+<body style="background-color:powderblue;"></body> <!--Esto cambia el color de fondo-->
 
+<h1 style="font-family:verdana;">Esto es un titulo con fuente Verdana</h1>
+<p style="font-family:courier;">Este es untecto con fuente courier.</p>
+<h1 style="font-size:300%;">300%</h1>
+
+<h1 style="text-align:center;">Titulo centrado</h1>
+<p style="text-align:center;">Parrafo centrado.</p>
+
+<p><b>Negritas</b></p>
+<p><i>Italica</i></p>
+<p>Texto<sub> desfazado</sub> y <sup> con superscript</sup></p>
+
+<h2>Así usamos <mark>highlight</mark> dentro de HTML</h2>
+
+<p>Así usamos <del>texto tachado</del>.</p>
+<p>Así usamos <ins>texto subrayado</ins>.</p>
+<p>Así usamos <sub>texto pequeñito abajo</sub>.</p>
+<p>Así usamos <sup>texto pequeñito arriba</sup>.</p>
+
+<p> De esta manera <q>Podemos escribir las citas</q></p>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> <!-- De esta manera se usan las abreviaciones. No se me ocurrio un ejemplo, lol.-->
+
+<address>
+    Así sería la manera.<br> 
+    Adecuada en la:<br>
+    que deberiamos<br>
+    Escribir una<br>
+    Dirección
+</address>
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> <!--Se manda a llamar automáticamente-->
+<bdo dir="rtl">Esto se escribira alreves</bdo>
 
 
 </body>
