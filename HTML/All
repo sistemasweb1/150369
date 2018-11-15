@@ -219,5 +219,76 @@ p {
 
 -->
 
+<!--Class -->
+<!--
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+p.error {
+    color: red;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+
+</body>
+</html>
+
+-->
+
+<!-- Referencias externas -->
+<!--
+    <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+-->
+
+<!-- Referencias CSS href="http://www.w3schools.com/html/">-->
+
+<!-- Imagenes <img src="pic_trulli.jpg" alt="Italian Trulli">-->
+
+<!-- Tamaño: <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">-->
+
+
+<!--Esta es una tabla-->
+<table style="width:100%">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th> 
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
 </body>
 </html>
