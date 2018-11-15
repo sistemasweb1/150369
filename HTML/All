@@ -88,6 +88,136 @@
 <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> <!--Se manda a llamar automáticamente-->
 <bdo dir="rtl">Esto se escribira alreves</bdo>
 
+<h1 style="border:2px solid Tomato;">Esto se escribira con un bordo color tomate</h1>
+<!-- También tenemos colores con efecto de transparencia.-->
+
+<!--CSS-->
+<!-- CSS actua como una manera más "tradicional de programación
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;} Pintaría el fondo
+h1   {color: blue;} Define el color de la cabecera
+p    {color: red;} Define el color de parrafo
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+Es un ejemplo de CSS interno.
+Un CSS externo requiere otra "hoja" de configuración aparte y se manda a llamar de la siguiente manera:
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>-->
+
+<!--Border-->
+<!--
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    border: 1px solid powderblue;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+-->
+
+<!-- Padding -->
+<!-- 
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    border: 1px solid powderblue;
+    padding: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+-->
+
+<!--Margen-->
+<!--
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    border: 1px solid powderblue;
+    margin: 50px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+-->
+
+<!--id-->
+<!-- 
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+#p01 {
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p id="p01">I am different.</p>
+
+</body>
+</html>
+
+-->
 
 </body>
 </html>
