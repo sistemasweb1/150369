@@ -3,6 +3,6 @@
 
 HTML <----------- Excercises of w2Schools.com
 
-Personal Site <-- First try of a personal webpage.
+Personal Site <-- https://aiphard.github.io/AIphard.github.io-Dany-personal-site/
 
 Reddo's site <--- https://aiphard.github.io/AIphard.github.io--reddo-webpage/
