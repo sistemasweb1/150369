@@ -3,6 +3,6 @@
 
 HTML <----------- Excercises of w2Schools.com
 
-Personal Site <-- https://aiphard.github.io/AIphard.github.io-Dany-personal-site/
+Personal Site <-- https://aiphard.github.io/
 
 Reddo's site <--- https://aiphard.github.io/AIphard.github.io--reddo-webpage/
