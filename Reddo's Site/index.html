@@ -1,81 +1,227 @@
-<!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link href="style-sheet.css" type="text/css" rel="stylesheet"/>
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>Reddo Mu Cephei - Art, Comissions & NSFW</title>
+    <meta name="description" content="Site for my school project based on my best friend.">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/presentation.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Red_Moonwolf">
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@Red_Moonwolf">
+    <!-- EDIT -->
+    <meta name="twitter:title" content="Nadia Alejandra Alvarez Martínez ">
+    <!-- EDIT -->
+    <meta name="twitter:description" content="Graphic Designer.">
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
 </head>
+
 <body>
-
-<title> Reddo's ART </title>
-
-<!--Barra de navegación-->
-<nav class="w3-bar w3-black">
-    <a href="#Home" class="w3-button w3-bar-item"> HOME</a>
-    <a href="#Art"  class="w3-button w3-bar-item"> ART</a>
-    <a href="#contact" class="w3-button w3-bar-item">CONTACT</a>
-</nav>
-
-<h1 style="font-size:100px;"> Reddo <span style="color:gray">Mu</span> Cephei <span style="color:black">ART</span> </h1>
-<h1> <span style="color:black">Art, Commissions & NSFW </span></h1>
-<hr> 
-
-
-<p> Welcome to Reddo's Web Site Attempt </p>
-
-<!--Presentación del arte-->
-<section class="w3-row-padding w3-center w3-light-grey">
-    <article class="w3-third">
-        <img src="image5.jpg" alt="Random Name" width="400" height="500">
-    </article>
-    <article class="w3-third">
-        <img src="profile.jpg" alt="Random Name" width="400" height="500">
-        <p> The Artist </p>
-    </article>
-    <article class="w3-third">
-        	<img src="image3.jpg" alt="Random Name" width="400" height="500">
-    </article>
-</section>
-
-<!-- Slide -->
-<section>
-        <img class="Slides" src="image2.jpg" width="100%" height="1000">
-        <img class="Slides" src="image4.jpg" width="100%" height="1000">
-        <img class="Slides" src="image1.jpg" width="100%" height="1000">
-</section>
-
-
-
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-        <a href="#"><i class="fa fa-facebook-official"></i></a>
-        <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        <a href="https://twitter.com/Red_Moonwolf"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-flickr"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-</footer>
-
-
-
-<script>
-        // Automatic Slideshow - change image every 3 seconds
-        var myIndex = 0;
-        carousel();
+    <header role="banner">
+        <nav role="navigation">
+            <p class="logo"><a href="index.html" title="Art">Presentation of Reddo Mu Cephei's Work</a></p>
+            <ul>
+                <li class="github">
+                    <a rel="external" href="https://github.com/Aiphard" title="Github">
+                        <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+                        <em>Alphard's Github</em>
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a rel="external" href="https://twitter.com/Red_Moonwolf" title="Twitter">
+                        <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+                        <em>@Red_Moonwolf</em>
+                    </a>
+                </li>
         
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("Slides");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}
-            x[myIndex-1].style.display = "block";
-            setTimeout(carousel, 3000);
-        }
-        </script>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <article id="webslides">
+
+            <section class="aligncenter">
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap size-80">
+                    <h1 class="text-data">
+                        <a class="visible-link" href="https://github.com/AIphard"> Reddo Mu Cephei's Art</a>
+                    </h1>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <div class="card-40 bg-white">
+                        <figure>
+                            <img src="static/images/profile.jpg">
+                        </figure>
+                        <div class="flex-content">
+                            <h2 class="presentation">Nadia Alejandra Alvarez Martínez</h2>
+                            <p>
+                                <a href="https://twitter.com/Red_Moonwolf">
+                                    Graphic Designer
+                                </a>
+                            </p>
+                            <ul class="description">
+                                <li>
+                                    <a class="visible-link" rel="external" href="https://twitter.com/Red_Moonwolf" title="Twitter">
+                                        <svg class="fa-twitter">
+                                            <use xlink:href="#fa-twitter"></use>
+                                        </svg>
+                                        <em>Twitter: @Red_Moonwolf</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="visible-link" rel="external" href="Ko-fi.com/redmoonwolf" title="Ko-Fi">
+                                        <svg class="fa-github">
+                                            <use xlink:href="#fa-github"></use>
+                                        </svg>
+                                        <em>Ko-Fi: Red Moonwolf</em>
+                                    </a>                                          
+                                </li>  
+                                <li>
+                                    <a class="visible-link" rel="external" href="https://derpibooru.org/profiles/Red_Moonwolf" tittle="Derpibooru (NSFW Alert)">
+                                        <svg class="fa-github">
+                                            <use xlink: href="#fa-github"></use>
+                                        </svg>
+                                        <em> Derpibooru (NSFW ALERT) </em>
+                               </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                <h2>
+                    <a href="www.twitter.com/Red_Moonwolf">Art</a>
+                </h2>
+                <img src="static/images/1.jpg" alt="Art of Red Moonwolf">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        Art
+                    </h2>
+                    <img src="static/images/2.jpg">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        Art
+                    </h2>
+                    <img src="static/images/3.jpg">     
+                </div>
+            </section>
+            
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        Art
+                    </h2>
+                    <img src="static/images/4.jpg">
+                </div>
+            </section>
+            
+            <section class="aligncenter">
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap size-80">
+                    <h1 class="text-data">Thanks for your visit!</h1>
+                    <p class="text-end">
+                        <a class="visible-link" rel="external" href="https://twitter.com/CapnDANY" title="Twitter">
+                            <svg class="fa-twitter">
+                                <use xlink:href="#fa-twitter"></use>
+                            </svg>
+                            <em>@CapnDANY</em>
+                        </a>
+                    </p>
+                    <p class="text-end">
+                        <a class="visible-link" rel="external" href="https://twitter.com/Red_Moonwolf" title="Twitter">
+                            <svg class="fa-github">
+                                <use xlink:href="#fa-twitter"></use>
+                            </svg>
+                            <em>@Red_Moonwolf</em>
+                        </a>
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>Made by</h2>
+                    <div class="grid vertical-align size-70">
+                        <div class="column">
+                            <ul class="description">
+                                <li class="credits">
+                                    <a class="visible-link" href="http://twitter.com/CapnDany"> Daniela Torres López</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+        <!-- end article -->
+    </main>
+    <!-- end main -->
+
+  
+    <script src="static/js/webslides.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
 
 </body>
+
 </html>
